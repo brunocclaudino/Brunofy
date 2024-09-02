@@ -30,6 +30,7 @@ button {
 }
 .button {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .button-navigate{
     font-size: 3em;
@@ -62,12 +63,20 @@ button {
     height: 3px;
     width: 100%;
     border-radius: 15px;
-    margin-bottom: 1em;
+    cursor: pointer;
 }
 
 #current-progress {
+    --progress: 0%;
     background-color: white;
     height: inherit;
-    width: 50%;
+    width: var(--progress);
     border-radius: inherit;
+}
+#progress-container{
+    padding-bottom: 1em;
+}
+
+.button-active{
+    color: rgb(0, 183 , 107);
 }

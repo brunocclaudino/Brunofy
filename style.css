@@ -51,9 +51,7 @@ button {
     font-size: 1.5em;
     font-weight: bolder;
 }
-#band-name {
-    
-}
+
 
 .light-color {
     color: rgb(189,153,156);
@@ -74,9 +72,17 @@ button {
     border-radius: inherit;
 }
 #progress-container{
-    padding-bottom: 1em;
+    cursor: pointer;
 }
 
 .button-active{
     color: rgb(0, 183 , 107);
+}
+#time-box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-size: smaller;
+   margin-top: 0.5em;
+
 }
